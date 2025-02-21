@@ -119,7 +119,7 @@ class CompanyController extends AdminController
 
         //get admin_role_users records with where condition
         $admin_role_users = DB::table('admin_role_users')->where([
-            'role_id' => 1,
+            'role_id' => 2,
         ])->get();
 
 
